@@ -7,6 +7,8 @@
 #include <string.h>
 #include <unistd.h>
 
+//This is only for eth0 network device. if you want to change go getLocalAddrInfo and rename the eth0 as your network device
+//2018-08-13 AYH
 
 #define ARP_PACKET_SIZE 60
 
